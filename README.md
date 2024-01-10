@@ -32,7 +32,7 @@ Este proyecto está licenciado bajo los términos de la licencia MIT.
 ## Crea un nuevo proyecto en el directorio actual
 
 ```bash
-npx degit https://github.com/AlvaroAlonsoDev/svelte-typescript-tailwind/tree/main
+npx degit [https://github.com/AlvaroAlonsoDev/svelte-typescript-tailwind/tree/main](https://github.com/AlvaroAlonsoDev/svelte-typescript-tailwind.git)
 cd my-svelte-project
 ```
 
