@@ -29,7 +29,7 @@ Si quieres contribuir a este proyecto, por favor, primero discute el cambio que 
 Este proyecto está licenciado bajo los términos de la licencia MIT.
 
 
-# crea un nuevo proyecto en el directorio actual
+## Crea un nuevo proyecto en el directorio actual
 
 ```bash
 npx degit https://github.com/AlvaroAlonsoDev/svelte-typescript-tailwind/tree/main
@@ -44,13 +44,13 @@ inicia un servidor de desarrollo:
 npm run dev
 ```
 
-# o inicia el servidor y abre la aplicación en una nueva pestaña del navegador
+## O Inicia el servidor y abre la aplicación en una nueva pestaña del navegador
 
 ```bash
 npm run dev -- --open
 ```
 
-Construcción
+### Construcción
 Para crear una versión de producción de tu aplicación:
 
 ```bash
