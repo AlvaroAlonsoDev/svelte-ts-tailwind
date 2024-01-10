@@ -1,38 +1,53 @@
-# create-svelte
+# Template Svelte por Álvaro Alonso
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Este es un template para iniciar proyectos con Svelte, TypeScript y Tailwind CSS, creado por mi, Álvaro Alonso.
 
-## Creating a project
+## Creando un proyecto
 
-If you're seeing this, you've probably already done this step. Congrats!
+Si estás viendo esto, probablemente ya hayas hecho este paso. ¡Felicidades!
+
+# Requisitos previos
+
+Necesitarás tener instalado Node.js y npm en tu sistema para usar esta plantilla. Puedes descargar Node.js desde [aquí](https://nodejs.org/) y npm se instalará automáticamente con él.
+
+## Desarrollo
+
+Después de instalar las dependencias, puedes iniciar un servidor de desarrollo ejecutando `npm run dev`. Esto iniciará el servidor y recargará la página cada vez que hagas cambios en el código.
+
+Si quieres que el servidor abra automáticamente la aplicación en una nueva pestaña del navegador, puedes usar `npm run dev -- --open`.
+
+## Construcción
+
+Para crear una versión optimizada de tu aplicación para producción, puedes usar `npm run build`. Esto generará los archivos estáticos de tu aplicación en el directorio `public`.
+
+## Contribución
+
+Si quieres contribuir a este proyecto, por favor, primero discute el cambio que deseas hacer a través de un issue antes de hacer el cambio.
+
+## Licencia
+
+Este proyecto está licenciado bajo los términos de la licencia MIT.
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+# crea un nuevo proyecto en el directorio actual
+npx degit https://github.com/AlvaroAlonsoDev/svelte-typescript-tailwind/tree/main
+cd my-svelte-project
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Desarrollo
+Una vez que hayas creado un proyecto e instalado las dependencias con npm install (o pnpm install o yarn), inicia un servidor de desarrollo:
 
-```bash
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# o inicia el servidor y abre la aplicación en una nueva pestaña del navegador
 npm run dev -- --open
-```
 
-## Building
 
-To create a production version of your app:
+Construcción
+Para crear una versión de producción de tu aplicación:
 
-```bash
 npm run build
+
+
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
