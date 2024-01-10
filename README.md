@@ -28,7 +28,7 @@ Si quieres contribuir a este proyecto, por favor, primero discute el cambio que 
 
 Este proyecto está licenciado bajo los términos de la licencia MIT.
 
-
+# Getting started
 ## Crea un nuevo proyecto en el directorio actual
 
 ```bash
